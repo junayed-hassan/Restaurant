@@ -1,0 +1,342 @@
+/* start common css */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+:root {
+    --heading-font:"Overlock", sans-serif;
+    --body-font:"Lato", sans-serif;
+}
+body {
+    font-family:var(--body-font) ;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:var(--heading-font) ;
+}
+h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul,
+li {
+    list-style: none;
+}
+/* start background-image css */
+.background-image {
+    background-image:url(../images/header-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    &::after {
+        content: "" ;
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        background-color:rgba(8, 0, 0, .5);
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
+/* start navbar css */
+.navbar {
+    a {                 
+        transition: all ease .3s;
+      &:hover{
+        color: red;
+      }  
+    }
+    .list-number {
+        font-size: 9px;
+    }
+    .border1 {
+        width: 37px;
+        background-color: black;
+        height: 2px;
+       } 
+    .border2 {
+        width: 48px;
+        background-color:black;
+        height: 2px;
+       }
+    .border3 {
+        width: 24px;
+        background-color:black;
+        height: 2px;
+       }
+} 
+/* start banner css */
+.banner {
+    padding: 105px 0 150px;
+    h1 {
+        font-size: 145px;
+    }
+    h3 {
+        font-size: 36px;
+        background-color: red;
+        margin-left: 46%;
+    }
+    p {
+        font-size: 24px;
+    }
+    hr {
+        width: 200px!important;
+        color: rgb(252, 1, 1);
+        transform: scaleY(3);
+    }
+}
+/* start Best food section css  */
+.best-food {
+    margin: 80px 0;
+    h2 {
+        margin-bottom: 20px;
+    }
+    .lorem {
+        font-size: 15px;
+    }
+    button {
+        font-size: 18px;
+        line-height: 28px;
+       background-color: red;
+       padding: 14px 28px 13px 29px;
+    }
+    .breakfast-time {
+        padding: 13px 0 0 20px;
+        background-color: #1B1B1B;
+        p {
+            font-size: 13px;
+            line-height: normal;
+            
+        }
+    }
+}
+/* start Specials food Menu section css */
+.specials-menu {
+    margin-bottom: 80px;
+    .menu-list {
+        margin: 30px 0 50px;
+        margin-left: 24%;
+            li {
+                font-size: 18px;
+                transition: all ease .3s; 
+               a:hover {
+                color: #fff;
+                background-color: red;
+            }
+        }
+    }
+    .price {
+        position: absolute;
+        left: 14px;
+        top: 214px;
+        border-top-right-radius: 10px;
+        width: 256px;
+    }
+    .food-matters {
+        h4 {
+            font-size: 22px;
+        }
+        span {
+            font-size: 16px;
+        }
+        i {
+            font-size: 9px;
+        }
+        button {
+            padding: 14px 90px 13px 91px;
+            margin: 35px 27px 30px 20px;
+            background-color: #fff;
+            border: solid 1px #E7272D;
+            &:hover {
+                background-color: #E7272D;
+                a {
+                    color: #fff;
+                }
+            }
+            a {
+                color:#E7272D ;
+            }
+            strong,
+            i {
+                font-size: 18px;
+            }
+        }
+    }
+}
+/* start Private Table section css */
+.private-table {
+    background-image:url(../images/private-table-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    &::after {
+        content: "" ;
+        width: 100%;
+        height: 100%;
+        position:absolute;
+        background-color:rgba(8, 0, 0, .5);
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    .container {
+        padding: 60px 0;
+        margin-bottom: 80px;
+        p {
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        strong {
+            font-size: 22px;
+            margin: 30px 0 5px;
+        }
+        span {
+            font-size: 16px;
+        }
+        button {
+            padding: 16px 36px 15px;
+            background-color: red;
+        }
+    }
+}
+/* start Food Gallery section css */
+.food-gallery {
+    margin-bottom: 80px;
+    h2 {
+        margin-bottom: 50px;
+    }
+    .gallery-fast-img {
+        background-image:url(../images/food-gallery-image1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        height: 561px;
+        width: 371px;
+        margin-right: 9px;
+        z-index: 1;
+        &::after {
+            content: "" ;
+            width: 100%;
+            height: 100%;
+            position:absolute;
+            background-color:rgba(8, 0, 0, .5);
+            top: 0;
+            left: 0;
+            z-index: -1;
+        } 
+    }
+     img {
+        margin-bottom: 21px;
+     }
+    .border-text {
+        ul {
+            position: relative;
+        }
+        .border-one {
+            height: 374px;
+            width: 2px;
+            background-color: red;
+            position: absolute;
+            left: 35px;
+            top: 145px;
+        }
+        .another-text {
+            position: absolute;
+            left: 50px;
+            top: 440px;
+            strong {
+                font-size: 22px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+        .border-two {
+            width: 287px;
+            height: 2px;
+            background-color: red;
+            position: absolute;
+            left: 20px;
+            top: 505px;
+        }
+    }
+}
+
+
+/* start footer section css */
+.footer {
+    background-color: #1B1B1B;
+    .container {
+        padding: 60px 0;
+        .ruler-one {
+            width: 475px;
+            height: 2px;
+            margin-top: 38px;
+            background-color: rgba(255, 255, 255, 0.30);
+        }
+        .footer-logo {
+            margin: 0 25px 60px ;
+        }
+        h6 {
+            font-size: 22px;
+            font-weight: 700;
+            padding-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            font-weight: 400;
+        }
+        .pe-one {
+            padding: 0 0 27px;
+        }
+        i {
+            width: 35px;
+            height: 35px;
+            line-height: 35px;
+            margin-right: 10px;
+            background-color: #E7272D;
+        }
+        .fast-i-list {
+            i {
+                background-color: #3F3F3F;
+            }
+        }
+        .contact-info {
+            .contact {
+                position: relative;
+                i {
+                    position: absolute;
+                    top: 11px;
+                    left: 0;
+                }
+            }
+        }
+        input {
+            padding:11px 0 11px 18px;
+            font-size: 18px;
+        }
+        button {
+            font-size: 18px;
+            background-color: red;
+        }
+    }
+}
+/* start copyright section css */
+.copyright {
+    font-size: 18px;
+    padding: 19px 0 18px;
+    background-color: #262525;
+}
+
