@@ -50,7 +50,7 @@ li {
 /* start navbar css */
 .navbar {
     a {                 
-        transition: all ease .3s;
+        transition: all ease .4s;
       &:hover{
         color: red;
       }  
@@ -127,7 +127,6 @@ li {
         margin-left: 24%;
             li {
                 font-size: 18px;
-                transition: all ease .3s; 
                a:hover {
                 color: #fff;
                 background-color: red;
@@ -152,6 +151,7 @@ li {
             font-size: 9px;
         }
         button {
+            transition: all ease 2s;
             padding: 14px 90px 13px 91px;
             margin: 35px 27px 30px 20px;
             background-color: #fff;
