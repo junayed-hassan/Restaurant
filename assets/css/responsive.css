@@ -1,4 +1,194 @@
- 
+@media (max-width: 326.98px) {
+  .banner {
+    padding: 50px 0;
+    h1 {
+      font-size: 70px;
+    }
+    h3 {
+      font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+}
+hr {
+    width: 100px!important;
+    color: rgb(252, 1, 1);
+    transform: scaleY(3);
+}
+  }
+  .best-food {
+    margin: 40px 0 10px;
+    h2 {
+      font-size: 16px;
+      line-height: 0;
+      margin-bottom: 10px;
+    }
+    .best-food-img {
+      margin-top: 15px !important;
+    }
+    .best-food-text {
+      .about-best-food {
+        .lorem {
+          font-size: 6px;
+          margin-top: 1px;
+          margin-bottom: 5px;
+          padding: 0;
+        }
+        button {
+          font-size: 7px;
+          line-height: 15px;
+          padding: 0 5px;
+          margin: 0px 0 7px;
+        }
+        .breakfast-time {
+          display: flex;
+          padding-bottom: 12px;
+          div {
+            width: 33%;
+          }
+          strong {
+            display: block;
+            font-size: 14px;
+          }
+          p {
+            font-size: 7px;
+            margin-bottom:0;
+            padding: 0;
+          }
+      }
+    }
+  }
+}
+.specials-menu {
+  h2 {
+    margin-top: 30px;
+    font-size: 32px;
+    line-height: 20px;
+  }
+  .menu-list {
+    ul {
+      li {
+        a {
+          width: 80%;
+          font-size: 9px;
+        }
+      }
+    }
+  }
+  .specials-food {
+    .specials-food-items {
+      .about-foot {
+        .price {
+          width: 70%;
+          font-size: 7px;
+          top: 105px !important;
+        }
+        .food-matters {
+          h4 {
+            margin-top: 10px;
+            font-size: 14px;
+            line-height: 0;
+          }
+          .five {
+            padding-left: 7px;
+            span {
+              font-size: 9px !important;
+              padding: 0 !important;
+            }
+            i {
+              font-size: 9px !important;
+              margin: 0 !important;
+            }
+          }
+          button {
+            margin: 5px 0 10px;
+            font-size: 8px !important;
+            padding: 3px 38px !important;
+            strong {
+              font-size: 9px;
+            }
+            i {
+              font-size: 9px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+.private-table {
+  .private-table-content {
+    .lorem {
+      h2 {
+        font-size: 25px !important;
+        line-height: 30px;
+      }
+      p {
+        font-size: 9px;
+      }
+      .breakfast-time {
+        .breakfast-time-all {
+          strong {
+            line-height: 0 !important;
+            font-size: 8px !important;
+            margin: 0;
+          }
+          span {
+            font-size: 7px;
+          }
+        }
+      }
+    }
+  }
+}
+.food-gallery {
+  h2 {
+    font-size: 40px;
+  }
+  .food-img {
+    img {
+      width: 100%;
+    }
+    .gallery-fast-img {
+      .border-text {
+        display: none;
+      }
+      height: 400px;
+      .border-two {
+        width: 170px !important;
+      }
+    }
+  }
+}
+.footer {
+  .footer-main {
+    h6 {
+      padding-bottom: 0;
+      font-size: 21px;
+    }
+    p {
+      font-size: 9px !important;
+      margin-bottom: 0;
+    }
+    .three {
+      .contact-info {
+        .lastpe {
+          font-size: 5px !important;
+        }
+        .contact {
+         .petag {
+          font-size: 7px !important;
+          margin-top: 12px;
+         }
+        }
+      }
+    }
+  }
+}
+.copyright {
+  font-size: 9px !important;
+}
+}
 /* sm applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .navbar {

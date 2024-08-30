@@ -58,6 +58,20 @@ li {
     .list-number {
         font-size: 9px;
     }
+    i {
+        transition: all ease .4s;
+        &:hover {
+            color: red;
+        }
+    }
+    .align-border {
+        li {
+            transition: all ease .1s;
+            &:hover {
+                background-color: red;
+            }
+        }
+    }
     .border1 {
         width: 37px;
         background-color: black;
@@ -115,7 +129,6 @@ li {
         p {
             font-size: 13px;
             line-height: normal;
-            
         }
     }
 }
@@ -125,12 +138,15 @@ li {
     .menu-list {
         margin: 30px 0 50px;
         margin-left: 24%;
+        ul {
             li {
                 font-size: 18px;
                a:hover {
+                transition: all ease .8s;
                 color: #fff;
                 background-color: red;
             }
+        }  
         }
     }
     .price {
@@ -151,7 +167,7 @@ li {
             font-size: 9px;
         }
         button {
-            transition: all ease 2s;
+            transition: all ease .9s;
             padding: 14px 90px 13px 91px;
             margin: 35px 27px 30px 20px;
             background-color: #fff;
@@ -226,58 +242,67 @@ li {
         width: 371px;
         margin-right: 9px;
         z-index: 1;
-        &::after {
-            content: "" ;
-            width: 100%;
-            height: 100%;
-            position:absolute;
-            background-color:rgba(8, 0, 0, .5);
-            top: 0;
-            left: 0;
-            z-index: -1;
-        } 
+        &:hover {
+            &::after {
+                content: "" ;
+                width: 100%;
+                height: 100%;
+                position:absolute;
+                background-color:rgba(8, 0, 0, .5);
+                top: 0;
+                left: 0;
+                z-index: -1;
+            } 
+            .border-text {
+                display: block;
+                ul {
+                    position: relative;
+                }
+                .border-one {
+                    height: 374px;
+                    width: 2px;
+                    background-color: red;
+                    position: absolute;
+                    left: 35px;
+                    top: 145px;
+                }
+                .another-text {
+                    position: absolute;
+                    left: 50px;
+                    top: 440px;
+                    strong {
+                        font-size: 22px;
+                    }
+                    span {
+                        font-size: 16px;
+                    }
+                }
+                .border-two {
+                    width: 287px;
+                    height: 2px;
+                    background-color: red;
+                    position: absolute;
+                    left: 20px;
+                    top: 505px;
+                }
+            }
+        }
     }
      img {
         margin-bottom: 21px;
      }
     .border-text {
-        ul {
-            position: relative;
-        }
-        .border-one {
-            height: 374px;
-            width: 2px;
-            background-color: red;
-            position: absolute;
-            left: 35px;
-            top: 145px;
-        }
-        .another-text {
-            position: absolute;
-            left: 50px;
-            top: 440px;
-            strong {
-                font-size: 22px;
-            }
-            span {
-                font-size: 16px;
-            }
-        }
-        .border-two {
-            width: 287px;
-            height: 2px;
-            background-color: red;
-            position: absolute;
-            left: 20px;
-            top: 505px;
-        }
+        display: none;
     }
-}
-
+    }
 
 /* start footer section css */
 .footer {
+    z-index: 1;
     background-color: #1B1B1B;
+    img {
+        z-index: -1;
+    }
     .container {
         padding: 60px 0;
         .ruler-one {
@@ -308,10 +333,16 @@ li {
             margin-right: 10px;
             background-color: #E7272D;
         }
-        .fast-i-list {
-            i {
-                background-color: #3F3F3F;
-            }
+        .footer-main {
+            .fast-i-list {
+                i {
+                    transition: all ease .6s;
+                    background-color: #3F3F3F;
+                    &:hover {
+                        background-color: red;
+                    }
+                }
+        }
         }
         .contact-info {
             .contact {

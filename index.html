@@ -21,37 +21,42 @@
             <!-- start navbar  -->
             <nav class="navbar navbar-expand-lg pt-4">
                 <div class="container bg-body rounded-3">
-                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" /></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse">
-                        <ul class="navbar-nav m-auto">
-                            <li class="me-3">
-                                <a class="nav-link fw-bold fs-5" href="#">Home</a>
-                            </li>
-                            <li class="me-3">
-                                <a class="nav-link fw-bold fs-5" href="#">About</a>
-                            </li>
-                            <li class="me-3">
-                                <a class="nav-link fw-bold fs-5" href="#">Set menu </a>
-                            </li>
-                            <li class="me-3">
-                                <a class="nav-link fw-bold fs-5" href="#">Contact</a>
-                            </li>
+                  <a class="navbar-brand" href="#"><img src="assets/images/logo.png" alt="logo" /></a>
+                  <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <a href="#">
+                        <ul class="mt-3 align-border">
+                            <li class="ms-auto mb-2 border1"></li>
+                            <li class="ms-auto mb-2 border2"></li>
+                            <li class="ms-auto border3"></li>
                         </ul>
-                        <i class="fa-solid fa-cart-arrow-down position-relative fs-2 pe-2"> <span class="list-number position-absolute top-0 start-100 translate-middle bg-danger text-white rounded-circle p-1">10</span></i>
-                        <a href="#">
-                            <ul class="mt-3 align-border">
-                                <li class="ms-auto mb-2 border1"></li>
-                                <li class="ms-auto mb-2 border2"></li>
-                                <li class="ms-auto border3"></li>
-                            </ul>
-                        </a>
-                        <!-- <i class="fa-solid fa-bars fs-2 px-2 border-start"></i> -->
-                    </div>
+                    </a>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto my-2">
+                      <li class="nav-item me-4">
+                        <a class="fw-bold fs-5" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="fw-bold fs-5" aria-current="page" href="#">About</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="fw-bold fs-5" aria-current="page" href="#">Set menu</a>
+                      </li>
+                      <li class="nav-item me-4">
+                        <a class="fw-bold fs-5" aria-current="page" href="#">Contact</a>
+                      </li>
+                    </ul>
+                    <i class="fa-solid fa-cart-arrow-down position-relative fs-2 pe-2"> <span class="list-number position-absolute top-0 start-100 translate-middle bg-danger text-white rounded-circle p-1">10</span></i>
+                    <a href="#">
+                        <ul class="mt-3 align-border">
+                            <li class="ms-auto mb-2 border1"></li>
+                            <li class="ms-auto mb-2 border2"></li>
+                            <li class="ms-auto border3"></li>
+                        </ul>
+                    </a>
+                  </div>
                 </div>
-            </nav>
+              </nav>
             <!-- end navbar  -->
             <!-- banner start  -->
             <section class="banner">
@@ -88,12 +93,18 @@
                             </div>
                             <div class="col-md-6 col-lg-6 position-relative text-white breakfast-time">
                                 <img class="position-absolute bottom-0 start-0" src="assets/images/bg-image 13.png" alt="img" />
-                                <strong>Breakfast</strong>
-                                <p class="w-75">Reservations for every day from 07am to 11.30am</p>
-                                <strong>Lunch</strong>
-                                <p class="w-75">Reservations for every day from 12pm to 1.30pm</p>
+                                <div>
+                                    <strong>Breakfast</strong>
+                                    <p class="w-75">Reservations for every day from 07am to 11.30am</p>
+                                </div>
+                                <div>
+                                    <strong>Lunch</strong>
+                                    <p class="w-75">Reservations for every day from 12pm to 1.30pm</p>
+                                </div>
+                               <div>
                                 <strong>Dinner</strong>
                                 <p class="w-75">Reservations for every day from 6pm to 8.45pm</p>
+                               </div>
                             </div>
                         </div>
                     </div>
@@ -298,14 +309,20 @@
                         <div class="bg-white p-4 rounded-3">
                             <input type="number" class="d-block w-100 py-3 ps-3 bg-transparent border border-dark-subtle rounded-1" placeholder="Phone No" />
                             <div class="d-flex justify-content-between py-3 border rounded-1 mt-3">
-                                <label class="ps-3">1 Person</label>
-                                <select class="border-white me-3 bg-white border-0"> </select>
+                                <select class="border-white ms-2 me-3 bg-white border-0 w-100 focus-ring-light">
+                                    <option value="">1 Person</option>
+                                    <option value="">2 Person</option>
+                                    <option value="">3 Person</option>
+                                 </select>
                             </div>
                             <input type="date" class="d-block w-100 py-3 px-3 bg-transparent border border-dark-subtle rounded-1 mt-3" />
 
                             <div class="d-flex justify-content-between py-3 border rounded-1 mt-3">
-                                <label class="ps-3">10:00 AM</label>
-                                <select class="border-white me-3 bg-white border-0"> </select>
+                                <select class="border-white ms-2 me-3 bg-white border-0 w-100 focus-ring-light">
+                                    <option>11:30</option>
+                                    <option>11:30</option>
+                                    <option>11:30</option>
+                                </select>
                             </div>
                             <a href="#">
                                 <button class="border-0 rounded-2 fw-bold text-white d-block mt-3">BOOK ATABLE</button>
@@ -347,7 +364,7 @@
         <!-- end Food Gallery section  -->
         <!-- start footer section  -->
         <section class="footer position-relative">
-            <img class="position-absolute bottom-0 start-0" src="assets/images/footer-image .png" alt="img" />
+                <img class="position-absolute bottom-0 start-0" src="assets/images/footer-image .png" alt="img" />
             <div class="container">
                 <ul class="d-flex">
                     <li class="ruler-one"></li>
@@ -389,18 +406,18 @@
                                 <a class="text-white" href="#">
                                     <i class="fa-solid fa-location-arrow text-center"></i>
                                 </a>
-                                <p class="d-inline-block w-75 ms-5 pb-2">Dogair Bazar, Signboard, demra, Dhaka - 1206</p>
+                                <p class="d-inline-block w-75 ms-5 pb-2 petag">Dogair Bazar, Signboard, demra, Dhaka - 1206</p>
                             </div>
                             <div class="contact">
                                 <a class="text-white" href="#">
                                     <i class="fa-solid fa-phone text-center"></i>
                                 </a>
-                                <p class="d-inline-block pe-4 w-75 ms-5 pb-2">+880 1728 619733 +880 1728 000000</p>
+                                <p class="d-inline-block pe-4 w-75 ms-5 pb-2 petag">+880 1728 619733 +880 1728 000000</p>
                             </div>
                             <a class="text-white" href="#">
                                 <i class="fa-solid fa-location-arrow text-center"></i>
                             </a>
-                            <p class="d-inline-block">nasrullah.cit.bd@gmail.com</p>
+                            <p class="d-inline-block lastpe">nasrullah.cit.bd@gmail.com</p>
                         </div>
                     </div>
                     <div class="col-sm-7 col-md-4 col-lg-4 text-white for">
@@ -418,5 +435,7 @@
         <!-- start copyright section  -->
         <section class="text-center copyright text-white">© Copyright 2024 Restan. All Rights Reserved by Restan.</section>
         <!-- end copyright section  -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     </body>
 </html>
