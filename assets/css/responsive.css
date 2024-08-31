@@ -19,8 +19,8 @@ hr {
   .best-food {
     margin: 40px 0 10px;
     h2 {
-      font-size: 16px;
-      line-height: 0;
+      font-size: 25px !important;
+      line-height: 25px;
       margin-bottom: 10px;
     }
     .best-food-img {
@@ -67,6 +67,7 @@ hr {
   }
   .menu-list {
     ul {
+      width: 90%;
       li {
         a {
           font-size: 10px;
@@ -158,6 +159,9 @@ hr {
   }
 }
 .footer {
+  .ruler-one {
+    width: 70px !important;
+  }
   .footer-main {
     h6 {
       padding-bottom: 0;
@@ -261,7 +265,7 @@ hr {
   .best-food {
     .best-food-text {
       h2 {
-        width:500px!important;
+        font-size: 38px;
       }
       .lorem {
         padding-right: 90px;
@@ -401,15 +405,12 @@ hr {
     }
   }
   .private-table {
+    width: 97%;
     .private-table-content {
       .lorem {
-        width: 75%;
+        width: 70%;
         margin-left: 8%;
         margin-bottom: 40px;
-      }
-      .input {
-        width: 90%;
-        margin-left: 5%;
       }
     }
   }
