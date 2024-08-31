@@ -75,6 +75,18 @@ hr {
       }
     }
   }
+  @media (max-width: 412.98px) {
+    .menu-list {
+      ul {
+        width: 92%;
+        li {
+          a {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
   .specials-food {
     .specials-food-items {
       .about-foot {
