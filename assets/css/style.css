@@ -150,11 +150,7 @@ li {
         }
     }
     .price {
-        position: absolute;
-        left: 14px;
-        top: 214px;
         border-top-right-radius: 10px;
-        width: 256px;
     }
     .food-matters {
         h4 {
@@ -168,8 +164,6 @@ li {
         }
         button {
             transition: all ease .9s;
-            padding: 14px 90px 13px 91px;
-            margin: 35px 27px 30px 20px;
             background-color: #fff;
             border: solid 1px #E7272D;
             &:hover {

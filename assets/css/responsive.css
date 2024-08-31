@@ -1,4 +1,4 @@
-@media (max-width: 326.98px) {
+@media (max-width: 412.98px) {
   .banner {
     padding: 50px 0;
     h1 {
@@ -69,8 +69,7 @@ hr {
     ul {
       li {
         a {
-          width: 80%;
-          font-size: 9px;
+          font-size: 10px;
         }
       }
     }
@@ -79,36 +78,34 @@ hr {
     .specials-food-items {
       .about-foot {
         .price {
-          width: 70%;
           font-size: 7px;
-          top: 105px !important;
         }
         .food-matters {
           h4 {
             margin-top: 10px;
-            font-size: 14px;
+            font-size: 16px;
             line-height: 0;
           }
           .five {
             padding-left: 7px;
             span {
-              font-size: 9px !important;
+              font-size: 11px !important;
               padding: 0 !important;
             }
             i {
-              font-size: 9px !important;
+              font-size: 7px !important;
               margin: 0 !important;
             }
           }
           button {
-            margin: 5px 0 10px;
-            font-size: 8px !important;
-            padding: 3px 38px !important;
+            /* margin: 5px 0 10px; */
+            font-size: 11px !important;
+            /* padding: 0 !important; */
             strong {
-              font-size: 9px;
+              font-size: 11px;
             }
             i {
-              font-size: 9px;
+              font-size: 11px;
             }
           }
         }
@@ -212,6 +209,22 @@ hr {
       .specials-food-items {
         width: 67% !important;
         margin-left: 15%!important;
+        .about-foot {
+          .food-matters {
+            button {
+              margin: 13px 0 12px 53px !important;
+              @media (max-width: 525.98px) {
+                margin: 13px 0 12px 43px !important;
+              }
+              @media (max-width:510.98px) {
+                margin: 13px 0 12px 23px !important;
+              }
+              @media (max-width:425.98px) {
+                margin: 13px 0 12px 9px !important;
+              }
+            }
+          }
+        }
       }
     }
   }
@@ -282,12 +295,9 @@ hr {
         .about-foot {
           .food-matters {
             button {
-              margin-left: 10%;
+              padding: 14px 45px !important;
             }
           }
-        }
-        .price {
-          top: 216px !important;
         }
       }
     }
@@ -378,9 +388,6 @@ hr {
       margin:10px 0 15px;
     }
     .specials-food {
-      .price {
-        top: 196px!important;
-      }
       .food-matters {
         .five {
           span {
@@ -389,7 +396,7 @@ hr {
         }
       }
       button {
-        padding: 14px 80px 15px 81px !important;
+        margin-left: 60px  !important;
       }
     }
   }
@@ -459,9 +466,6 @@ hr {
       margin-left: 17%;
     }
     .specials-food {
-      .price {
-        top: 166px;
-      }
       .food-matters {
         .five {
           span {
@@ -470,7 +474,7 @@ hr {
         }
       }
       button {
-        padding: 14px 60px 13px 61px;
+        padding: 14px 20px 13px 21px !important;
       }
     }
   }
