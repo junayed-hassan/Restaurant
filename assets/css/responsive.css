@@ -405,8 +405,9 @@ hr {
     }
   }
   .private-table {
-    width: 97%;
     .private-table-content {
+       width: 97%;
+       margin-left: 1%;
       .lorem {
         width: 70%;
         margin-left: 8%;
