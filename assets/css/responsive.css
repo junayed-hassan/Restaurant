@@ -78,7 +78,7 @@ hr {
   @media (max-width: 412.98px) {
     .menu-list {
       ul {
-        width: 100%;
+        width: 92%;
         li {
           a {
             font-size: 10px;
@@ -376,6 +376,14 @@ hr {
 
 /* lg applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+  .navbar {
+    i {
+      display: none;
+    }
+    .align-2 {
+      display: none;
+    }
+  }
   .best-food {
     .best-food-img {
       order: 2;
